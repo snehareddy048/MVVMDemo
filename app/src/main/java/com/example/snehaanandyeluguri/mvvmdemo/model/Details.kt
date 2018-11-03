@@ -11,7 +11,7 @@ data class Details(
 	val verseurl: String? = null,
 
 	@field:SerializedName("text")
-	val text: String? = null,
+	var text: String? = null,
 
 	@field:SerializedName("version")
 	val version: String? = null
